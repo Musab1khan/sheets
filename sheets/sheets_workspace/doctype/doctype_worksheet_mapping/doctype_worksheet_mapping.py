@@ -257,6 +257,9 @@ class DocTypeWorksheetMapping(Document):
         if not values:
             return ""
 
+        # Filter out empty rows (where all cells are empty)
+        values = [v for v in values if any(v)]
+
         buffer = StringIO()
         csv_writer(buffer).writerows(values)
         return buffer.getvalue()

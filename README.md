@@ -17,12 +17,12 @@ Sync data between Google Sheets and Frappe DocTypes — automatically, in real-t
 
 ## Key Features
 
-- ** 2-Way Synchronization** — Import data from Sheets to ERPNext AND Export data from ERPNext to Sheets.
-- ** Child Table Support** — Automatically flattens child tables (e.g., Sales Invoice Items, Bonded Products) for denormalized Google Sheets reporting.
-- ** Real-time Export** — Data is pushed to your Google Sheet instantly whenever a record is saved in ERPNext.
-- ** Automated Imports** — Schedule recurring imports with built-in cron support (hourly, daily, etc.).
-- ** Zero-Code Dynamic Export** — One-click "Trigger Export" button for manual synchronization of any DocType.
-- ** Incremental Sync** — Smart tracking to ensure only new/changed data is synced, preventing duplicates.
+- **2-Way Synchronization** — Import data from Sheets to ERPNext AND Export data from ERPNext to Sheets.
+- **Child Table Support** — Automatically flattens child tables (e.g., Sales Invoice Items, Bonded Products) for denormalized Google Sheets reporting.
+- **Real-time Export** — Data is pushed to your Google Sheet instantly whenever a record is saved in ERPNext.
+- **Automated Imports** — Schedule recurring imports with built-in cron support (hourly, daily, etc.).
+- **Zero-Code Dynamic Export** — One-click "Trigger Export" button for manual synchronization of any DocType.
+- **Incremental Sync** — Smart tracking to ensure only new/changed data is synced, preventing duplicates.
 
 ## How It Works
 
